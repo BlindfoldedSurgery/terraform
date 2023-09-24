@@ -1,6 +1,6 @@
 # Terraform
 
-Terraform-managed infrastructure for woog-life projects.
+Terraform-managed infrastructure for BlindfoldedSurgery projects.
 
 ## Auth
 
