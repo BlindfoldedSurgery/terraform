@@ -8,5 +8,6 @@ module "bs_config_repo" {
     "lint (3.10)",
     "lint (3.11)",
     "codecov/patch",
+    "SonarCloud Code Analysis",
   ]
 }
