@@ -5,10 +5,8 @@ module "bs_config_repo" {
   required_status_checks = [
     "test (3.10)",
     "test (3.11)",
-    "test (3.12-rc)",
     "lint (3.10)",
     "lint (3.11)",
-    "lint (3.12-rc)",
     "codecov/patch",
   ]
 }
