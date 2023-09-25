@@ -7,5 +7,6 @@ module "bs_config_repo" {
     "test (3.11)",
     "lint (3.10)",
     "lint (3.11)",
+    "codecov/patch",
   ]
 }
