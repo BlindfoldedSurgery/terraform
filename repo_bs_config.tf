@@ -4,7 +4,9 @@ module "bs_config_repo" {
   description = "Config package for Python"
   required_status_checks = [
     "test (3.11)",
+    "test (3.12)",
     "lint (3.11)",
+    "lint (3.12)",
     "codecov/patch",
     "SonarCloud Code Analysis",
   ]
