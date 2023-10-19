@@ -8,5 +8,4 @@ module "bs_state_repo" {
     "codecov/patch",
     "SonarCloud Code Analysis",
   ]
-  create_default_branch = false
 }

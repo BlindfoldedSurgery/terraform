@@ -6,5 +6,4 @@ module "isso_repo" {
     "lint",
     "build-container-image",
   ]
-  create_default_branch = false
 }
