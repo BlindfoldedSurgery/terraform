@@ -3,10 +3,10 @@ module "bs_config_repo" {
   name        = "bs-config"
   description = "Config package for Python"
   required_status_checks = [
-    "test (3.11)",
-    "test (3.12)",
-    "lint (3.11)",
-    "lint (3.12)",
+    "test (3.11) / test",
+    "test (3.12) / test",
+    "lint (3.11) / lint",
+    "lint (3.12) / lint",
     "codecov/patch",
     "SonarCloud Code Analysis",
   ]
