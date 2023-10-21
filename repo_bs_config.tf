@@ -1,5 +1,5 @@
 module "bs_config_repo" {
-  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v2"
+  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.1.0"
   name        = "bs-config"
   description = "Config package for Python"
   required_status_checks = [
