@@ -1,5 +1,5 @@
 module "bs_state_repo" {
-  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.0.1"
+  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.1.3"
   name        = "bs-state"
   description = "State package for Python"
   required_status_checks = [
