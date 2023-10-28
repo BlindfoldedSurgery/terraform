@@ -3,6 +3,9 @@ module "renovate_config_repo" {
   name        = "renovate-config"
   description = "Config presets for Renovate"
   required_status_checks = [
-    "validate",
+    "validate (default.json)",
+    "validate (java.json)",
+    "validate (pub.json)",
+    "validate (python.json)",
   ]
 }
