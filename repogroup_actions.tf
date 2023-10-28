@@ -1,8 +1,10 @@
 module "actions_actions_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.3.0"
-  name                   = "actions-actions"
-  description            = "Reusable GitHub Actions Workflows for GitHub Actions"
-  required_status_checks = []
+  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.3.0"
+  name        = "actions-actions"
+  description = "Reusable GitHub Actions Workflows for GitHub Actions"
+  required_status_checks = [
+    "commitizen / check-commits"
+  ]
 }
 
 module "actions_container_repo" {
