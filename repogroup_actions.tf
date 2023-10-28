@@ -1,5 +1,5 @@
 module "actions_container_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.0.1"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.1.3"
   name                   = "actions-container"
   description            = "Reusable Container Workflows for GitHub Actions"
   required_status_checks = []
@@ -7,7 +7,7 @@ module "actions_container_repo" {
 
 
 module "actions_python_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.0.1"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.1.3"
   name                   = "actions-python"
   description            = "Reusable Python Workflows for GitHub Actions"
   required_status_checks = []
