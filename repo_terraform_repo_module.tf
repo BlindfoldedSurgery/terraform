@@ -6,6 +6,6 @@ module "terraform_repo_module_repo" {
   required_status_checks = [
     "fmt",
     "validate",
-    "commitizen / check-commits"
+    "commitizen-check / check"
   ]
 }

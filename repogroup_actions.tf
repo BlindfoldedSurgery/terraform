@@ -4,7 +4,7 @@ module "actions_actions_repo" {
   description                            = "Reusable Release Workflows for GitHub Actions"
   allow_default_branch_protection_bypass = false
   required_status_checks = [
-    "commitizen / check-commits"
+    "commitizen-check / check"
   ]
 }
 
@@ -14,7 +14,7 @@ module "actions_container_repo" {
   description                            = "Reusable Container Workflows for GitHub Actions"
   allow_default_branch_protection_bypass = false
   required_status_checks = [
-    "commitizen / check-commits"
+    "commitizen-check / check"
   ]
 }
 
@@ -24,6 +24,6 @@ module "actions_python_repo" {
   description                            = "Reusable Python Workflows for GitHub Actions"
   allow_default_branch_protection_bypass = false
   required_status_checks = [
-    "commitizen / check-commits"
+    "commitizen-check / check"
   ]
 }
