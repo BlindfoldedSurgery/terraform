@@ -1,6 +1,6 @@
 module "container_images_repo" {
   source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.3.0"
-  name                   = "container-images"
-  description            = "[Experimental] Base container images"
+  name                   = "poetry-container"
+  description            = "[Experimental] Container images with Poetry"
   required_status_checks = []
 }
