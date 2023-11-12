@@ -20,13 +20,12 @@ module "actions_container_repo" {
     "build-docker-all-options (test-build) / build",
     "build-docker-all-options (./test-build) / build",
     "build-kaniko-minimal / build",
-    "build-kaniko-all-options ({{defaultContext}}:test-build) / build",
     "build-kaniko-all-options (test-build) / build",
     "build-kaniko-all-options (./test-build) / build",
     "build-kaniko-amd64 / build",
     "build-docker-arm64 / build",
-    "merge-with-artifact",
-    "merge-with-outputs",
+    "merge-with-artifact / create",
+    "merge-with-outputs / create",
   ]
 }
 
