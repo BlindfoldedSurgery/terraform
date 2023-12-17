@@ -7,6 +7,7 @@ module "bs_state_repo" {
     "check-commits / check",
     "test (3.11)",
     "lint (3.11) / lint",
+    "validate-renovate-config / validate",
     "codecov/patch",
     "SonarCloud Code Analysis",
   ]

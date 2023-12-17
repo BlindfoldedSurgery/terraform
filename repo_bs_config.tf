@@ -9,6 +9,7 @@ module "bs_config_repo" {
     "test (3.12) / test",
     "lint (3.11) / lint",
     "lint (3.12) / lint",
+    "validate-renovate-config / validate",
     "codecov/patch",
     "SonarCloud Code Analysis",
   ]
