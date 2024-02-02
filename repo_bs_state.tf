@@ -6,7 +6,9 @@ module "bs_state_repo" {
   required_status_checks = [
     "check-commits / check",
     "test (3.11)",
+    "test (3.12)",
     "lint (3.11) / lint",
+    "lint (3.12) / lint",
     "validate-renovate-config / validate",
     "codecov/patch",
     "SonarCloud Code Analysis",
