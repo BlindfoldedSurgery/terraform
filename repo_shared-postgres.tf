@@ -5,4 +5,5 @@ module "shared-postgres_repo" {
   required_status_checks = [
     "lint",
   ]
+  is_archived = true
 }

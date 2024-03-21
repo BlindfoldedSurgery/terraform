@@ -5,4 +5,5 @@ module "actions_tanka_repo" {
   required_status_checks = [
     "test"
   ]
+  is_archived = true
 }

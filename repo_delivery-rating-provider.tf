@@ -5,4 +5,5 @@ module "delivery_rating_provider_repo" {
   required_status_checks = [
     "build-container-image / build",
   ]
+  is_archived = true
 }

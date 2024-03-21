@@ -6,4 +6,5 @@ module "eiersaftme-notifier_repo" {
     "lint",
     "build-container-image",
   ]
+  is_archived = true
 }
