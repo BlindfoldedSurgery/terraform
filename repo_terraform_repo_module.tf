@@ -6,6 +6,7 @@ module "terraform_repo_module_repo" {
   required_status_checks = [
     "fmt",
     "validate",
+    "validate-renovate-config / validate",
     "check-commits / check"
   ]
 }
