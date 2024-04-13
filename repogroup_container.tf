@@ -1,5 +1,5 @@
 module "container_poetry_repo" {
-  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v7.1.0"
+  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v7.1.1"
   name                                   = "container-poetry"
   description                            = "Container images with Poetry"
   allow_default_branch_protection_bypass = false
