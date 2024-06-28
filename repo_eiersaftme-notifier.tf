@@ -6,5 +6,6 @@ module "eiersaftme-notifier_repo" {
     "lint",
     "build-container-image",
   ]
-  is_archived = true
+  is_archived         = true
+  enable_argocd_rules = false
 }

@@ -5,5 +5,6 @@ module "rancher-monitoring_repo" {
   required_status_checks = [
     "lint",
   ]
-  is_archived = true
+  is_archived         = true
+  enable_argocd_rules = false
 }

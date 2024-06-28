@@ -5,5 +5,6 @@ module "actions_tanka_repo" {
   required_status_checks = [
     "test"
   ]
-  is_archived = true
+  is_archived         = true
+  enable_argocd_rules = false
 }
