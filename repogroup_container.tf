@@ -5,8 +5,8 @@ module "container_flutter_repo" {
   allow_default_branch_protection_bypass = false
   required_status_checks = [
     "check-commits / check",
-    "build-container-image (amd64) / build",
-    "build-container-image (arm64) / build",
+    "build-container-image (3.22, amd64) / build",
+    "build-container-image (3.22, arm64) / build",
   ]
 }
 
