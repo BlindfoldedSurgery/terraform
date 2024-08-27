@@ -6,5 +6,6 @@ module "delivery_rating_provider_repo" {
     "build-container-image / build",
   ]
   is_archived         = true
+  is_public           = false
   enable_argocd_rules = false
 }

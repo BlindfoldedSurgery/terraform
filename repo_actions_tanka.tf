@@ -6,5 +6,6 @@ module "actions_tanka_repo" {
     "test"
   ]
   is_archived         = true
+  is_public           = false
   enable_argocd_rules = false
 }

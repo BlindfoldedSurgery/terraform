@@ -7,5 +7,6 @@ module "eiersaftme-notifier_repo" {
     "build-container-image",
   ]
   is_archived         = true
+  is_public           = false
   enable_argocd_rules = false
 }

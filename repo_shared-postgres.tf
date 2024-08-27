@@ -6,5 +6,6 @@ module "shared-postgres_repo" {
     "lint",
   ]
   is_archived         = true
+  is_public           = false
   enable_argocd_rules = false
 }
