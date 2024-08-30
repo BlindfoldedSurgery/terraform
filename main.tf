@@ -17,8 +17,17 @@ terraform {
   }
 }
 
+locals {
+  gh_app_id = "Iv23liSYP04ZCAeQ17ph"
+}
+
 provider "github" {
   owner = "blindfoldedSurgery"
+  app_auth {
+    id              = local.gh_app_id
+    pem_file        = null
+    installation_id = "54328913"
+  }
 }
 
 provider "google" {
