@@ -11,6 +11,8 @@ module "container_flutter_repo" {
     "build-container-image (3.19, arm64) / build",
     "build-container-image (3.22, amd64) / build",
     "build-container-image (3.22, arm64) / build",
+    "build-container-image (3.24, amd64) / build",
+    "build-container-image (3.24, arm64) / build",
   ]
 }
 
