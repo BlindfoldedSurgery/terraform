@@ -1,5 +1,5 @@
 module "actions_tanka_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v7.3.3"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v7.4.0"
   name                   = "actions-tanka"
   description            = "Github action for tanka interaction"
   required_status_checks = []
