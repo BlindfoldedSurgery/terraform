@@ -38,8 +38,6 @@ module "action_meta_repo" {
 
   required_status_checks = [
     "check-commits / check",
-    "required-meta / actionlint",
-    "required-meta / validate-renovate-config / validate",
   ]
 }
 
