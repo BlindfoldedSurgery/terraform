@@ -29,6 +29,19 @@ module "actions_container_repo" {
   ]
 }
 
+module "action_meta_repo" {
+  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v7.4.0"
+  name        = "actions-meta"
+  description = "GitHub Actions that apply to every repo"
+
+  allow_default_branch_protection_bypass = false
+
+  required_status_checks = [
+    "actionlint / check",
+    "check-commits / check",
+  ]
+}
+
 module "actions_python_repo" {
   source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v7.4.0"
   name                                   = "actions-python"
