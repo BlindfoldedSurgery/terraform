@@ -7,6 +7,9 @@ on:
 
 
 jobs:
+  required-meta:
+    uses: BlindfoldedSurgery/actions-meta/.github/workflows/required.yml@v1
+
   fmt:
     runs-on: ubuntu-latest
     steps:
