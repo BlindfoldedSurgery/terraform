@@ -1,5 +1,5 @@
 module "shared-postgres_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v7.4.0"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v8.0.0"
   name                   = "shared-postgres"
   description            = "shared postgres database for several use-cases (e.g. staging environments)"
   required_status_checks = []
