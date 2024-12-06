@@ -37,8 +37,9 @@ module "action_meta_repo" {
   allow_default_branch_protection_bypass = false
 
   required_status_checks = [
-    "actionlint / check",
     "check-commits / check",
+    "required-meta / actionlint",
+    "required-meta / validate-renovate-config",
   ]
 }
 
