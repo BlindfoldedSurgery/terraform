@@ -1,5 +1,5 @@
 module "actions_actions_repo" {
-  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v8.0.0"
+  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v8.0.1"
   name                                   = "actions-releases"
   description                            = "Reusable Release Workflows for GitHub Actions"
   allow_default_branch_protection_bypass = false
@@ -9,7 +9,7 @@ module "actions_actions_repo" {
 }
 
 module "actions_container_repo" {
-  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v8.0.0"
+  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v8.0.1"
   name                                   = "actions-container"
   description                            = "Reusable Container Workflows for GitHub Actions"
   allow_default_branch_protection_bypass = false
@@ -30,7 +30,7 @@ module "actions_container_repo" {
 }
 
 module "action_meta_repo" {
-  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v8.0.0"
+  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v8.0.1"
   name        = "actions-meta"
   description = "GitHub Actions that apply to every repo"
 
@@ -42,7 +42,7 @@ module "action_meta_repo" {
 }
 
 module "actions_python_repo" {
-  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v8.0.0"
+  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v8.0.1"
   name                                   = "actions-python"
   description                            = "Reusable Python Workflows for GitHub Actions"
   allow_default_branch_protection_bypass = false
