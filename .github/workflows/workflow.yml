@@ -29,9 +29,12 @@ jobs:
 
   plan:
     runs-on: ubuntu-24.04
-    needs: [fmt, validate]
+    needs:
+      - fmt
+      - validate
+      - required-meta
     concurrency: production
-    if: success() && github.ref != 'refs/heads/main'
+    if: github.event_name == 'pull_request'
     env:
       GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_SA_JSON }}
       GITHUB_APP_PEM_FILE: ${{ secrets.GH_APP_PEM_FILE }}
@@ -43,9 +46,12 @@ jobs:
 
   apply:
     runs-on: ubuntu-24.04
-    needs: [fmt, validate]
+    needs:
+      - fmt
+      - validate
+      - required-meta
     concurrency: production
-    if: success() && github.ref == 'refs/heads/main'
+    if: github.ref_name == github.event.repository.default_branch
     env:
       GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_SA_JSON }}
       GITHUB_APP_PEM_FILE: ${{ secrets.GH_APP_PEM_FILE }}
