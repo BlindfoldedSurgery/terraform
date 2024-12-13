@@ -16,11 +16,11 @@ module "actions_container_repo" {
   required_status_checks = [
     "check / check",
     "build-docker-minimal / build",
-    "build-docker-minimal-cached / build",
     "build-docker-all-options ({{defaultContext}}:test-build) / build",
     "build-docker-all-options (test-build) / build",
     "build-docker-all-options (./test-build) / build",
     "build-kaniko-minimal / build",
+    "build-kaniko-minimal-cached / build",
     "build-kaniko-all-options (test-build) / build",
     "build-kaniko-all-options (./test-build) / build",
     "build-kaniko-amd64 / build",
