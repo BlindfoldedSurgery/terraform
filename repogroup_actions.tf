@@ -25,6 +25,7 @@ module "actions_container_repo" {
     "build-kaniko-all-options (./test-build) / build",
     "build-kaniko-amd64 / build",
     "build-docker-arm64 / build",
+    "clean-package-versions / clean",
     "merge-with-artifact / create",
     "merge-with-outputs / create",
   ]
