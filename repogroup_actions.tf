@@ -20,6 +20,7 @@ module "actions_container_repo" {
     "build-docker-all-options (test-build) / build",
     "build-docker-all-options (./test-build) / build",
     "build-kaniko-minimal / build",
+    "build-dual-kaniko / merge-manifests / create",
     "build-kaniko-minimal-cached / build",
     "build-kaniko-all-options (test-build) / build",
     "build-kaniko-all-options (./test-build) / build",
