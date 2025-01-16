@@ -1,5 +1,5 @@
 module "rancher-monitoring_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.0.2"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.1.3"
   name                   = "rancher-monitoring"
   description            = "deploy rancher monitoring"
   required_status_checks = []

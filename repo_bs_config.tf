@@ -1,5 +1,5 @@
 module "bs_config_repo" {
-  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.0.2"
+  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.1.3"
   name                                   = "bs-config"
   description                            = "Config package for Python"
   allow_default_branch_protection_bypass = false
