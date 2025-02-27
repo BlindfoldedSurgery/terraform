@@ -1,5 +1,5 @@
 module "terraform_repo_module_repo" {
-  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.1.3"
+  source                                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v9.2.0"
   name                                   = "terraform-repo-module"
   description                            = "Terraform module that allows configuration of GitHub repositories"
   allow_default_branch_protection_bypass = false
