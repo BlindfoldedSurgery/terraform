@@ -1,5 +1,5 @@
 module "isso_repo" {
-  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v10.1.0"
+  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v10.1.1"
   name        = "isso"
   description = "isso comments for eiersaft.me"
 
