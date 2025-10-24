@@ -23,7 +23,9 @@ locals {
 }
 
 provider "github" {
-  owner = "blindfoldedSurgery"
+  owner             = "blindfoldedSurgery"
+  parallel_requests = true
+
   app_auth {
     id              = local.gh_app_id
     pem_file        = null
