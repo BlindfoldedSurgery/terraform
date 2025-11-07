@@ -14,6 +14,6 @@ module "container_poetry_repo" {
   description = "Container images with Poetry"
 
   is_archive_prepared = true
-  is_archived         = false
+  is_archived         = true
   is_public           = false
 }
