@@ -4,6 +4,8 @@ module "container_flutter_repo" {
   description = "Container images with Flutter"
 
   is_archive_prepared = true
+  is_archived         = true
+  is_public           = false
 }
 
 module "container_poetry_repo" {
