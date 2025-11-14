@@ -1,5 +1,5 @@
 module "container_flutter_repo" {
-  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v10.1.1"
+  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v11.0.0"
   name        = "container-flutter"
   description = "Container images with Flutter"
 
@@ -9,7 +9,7 @@ module "container_flutter_repo" {
 }
 
 module "container_poetry_repo" {
-  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v10.1.1"
+  source      = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v11.0.0"
   name        = "container-poetry"
   description = "Container images with Poetry"
 
